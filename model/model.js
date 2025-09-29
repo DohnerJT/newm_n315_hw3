@@ -11,8 +11,15 @@ export function PageRouter(){
     if(hashTag === "" || hashTag === "home"){
         hashTag = "home"
     }
-
-    $.get(`./pages/${hashTag}.html`, function(data){
+    let address = `../pages/${hashTag}.html`
+        console.log(address)
+    $.get(address, function(data){
+        
         $("#contentBody").html(data)
-    })
+
+
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+            // Handle errors here
+            console.error("Error fetching data:", textStatus, errorThrown);
+        });
 }
