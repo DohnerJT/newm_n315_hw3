@@ -2,7 +2,7 @@ import {PageRouter} from "../model/model.js"
 
 function initListeners() {
     
-    
+  
 
 }
 

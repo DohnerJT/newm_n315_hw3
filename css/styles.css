@@ -55,6 +55,9 @@ p {
   text-decoration: none;
   color: #00ff85;
 }
+.mainBody nav .linkBar a .imgBtn {
+  height: 60px;
+}
 .mainBody .heroBlock {
   background-color: purple;
   background-image: url(..//images/heroImg.jpeg);
