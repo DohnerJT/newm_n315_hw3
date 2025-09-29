@@ -1,0 +1,30 @@
+
+.title_js_one{
+    color: #00ff85;
+}
+
+.title_js_two{
+    color: #1e90ff;
+}
+
+.title_js_three{
+    color: #ff0099;
+}
+
+
+
+.imgBar{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    height: 400px; width: 100%;
+
+    img{
+    width: 700px;
+    aspect-ratio: 16/9;
+    }
+
+}

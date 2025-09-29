@@ -1,11 +1,20 @@
-import {} from "../model/model.js"
+import {PageRouter} from "../model/model.js"
 
 function initListeners() {
     
-    console.log("app.js is linked")
+    
+
 }
+
+function HashChange() {
+    $(window).on("hashchange", PageRouter)
+    PageRouter()
+}
+
 
 $(document).ready(function () {
    
+    HashChange()
+
     initListeners();
 })

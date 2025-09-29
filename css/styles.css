@@ -1,1 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+p {
+  text-indent: 3em;
+}
+
+.p_ord {
+  color: #ff5722;
+}
+
+.p_pur {
+  color: #673ab7;
+}
+
+.mainBody {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+}
+.mainBody nav {
+  position: relative;
+  width: 90%;
+  height: 75px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.mainBody nav .linkBar {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+  width: 100%;
+  border-top: solid 2px black;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #444;
+}
+.mainBody nav .linkBar a {
+  font-size: 25px;
+  text-decoration: none;
+  color: #00ff85;
+}
+.mainBody .heroBlock {
+  background-color: purple;
+  background-image: url(..//images/heroImg.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+}
+.mainBody #contentBody {
+  width: 85%;
+  min-height: 500px;
+  background-color: #181818;
+  margin-top: 10px;
+  padding: 15px;
+}
+.mainBody #contentBody .blockImgText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.mainBody #contentBody .blockImgText .imgBlock {
+  min-width: 400px;
+  aspect-ratio: 16/9;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mainBody #contentBody .blockImgText .textBlock {
+  padding: 10px;
+}
+
+.title_js_one {
+  color: #00ff85;
+}
+
+.title_js_two {
+  color: #1e90ff;
+}
+
+.title_js_three {
+  color: #ff0099;
+}
+
+.imgBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}
+.imgBar img {
+  width: 700px;
+  aspect-ratio: 16/9;
+}
+
+.title_java_one {
+  color: #ff6f61;
+}
+
+.title_java_two {
+  color: #DAA520;
+}
+
+.title_java_three {
+  color: #FF4500;
+}
+
+.title_cpp_one {
+  color: #A8dadc;
+}
+
+.title_cpp_two {
+  color: #FFC1CC;
+}
+
+.title_cpp_three {
+  color: #B39cd0;
+}
+
+.title_python_one {
+  color: #FF5722;
+}
+
+.title_python_two {
+  color: #673ab7;
+}
+
+.title_python_three {
+  color: #FFEB3B;
+}
