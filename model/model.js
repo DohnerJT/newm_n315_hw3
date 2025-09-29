@@ -12,7 +12,7 @@ export function PageRouter(){
         hashTag = "home"
     }
 
-    $.get(`../pages/${hashTag}.html`, function(data){
+    $.get(`./pages/${hashTag}.html`, function(data){
         $("#contentBody").html(data)
     })
 }
